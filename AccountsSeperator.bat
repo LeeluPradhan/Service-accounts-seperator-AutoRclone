@@ -17,7 +17,7 @@ DEL final1.txt
 sed "s/.$//; s/^.//" "final2.txt" > final3.txt
 DEL final2.txt
 
-sed "0~10 s/$/\n /g" "final3.txt" > final_email.txt
+sed "0~100 s/$/\n /g" "final3.txt" > final_email.txt
 DEL final3.txt
 :::
 :::
