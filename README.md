@@ -1,6 +1,7 @@
 # Service Accounts Seperator
-When you create service accounts, you need to add 10 each at a time and hence copy paste from json files to google group. This batch file will help you a bit by automating that stuff to sort out 10 accounts and hence easy to copy paste!
+When you create service accounts, you need to add 100 each at a time and hence copy paste from json files to google group. This batch file will help you a bit by automating that stuff to sort out 10 accounts and hence easy to copy paste!
 
+PS: With latest google limitations all cloning methods are dead but still you can add 100 members in one time
 ## Pre-Requirements:
 - [GNU](http://gnuwin32.sourceforge.net/install.html)
 - [CYGWIN](https://cygwin.com/)
