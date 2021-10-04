@@ -1,0 +1,156 @@
+* {
+    margin: -1px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .rightside,
+    .leftside {
+        top: 5px;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.username {
+    flex-direction: column;
+    margin: 0 25px;
+    font-size: 16px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 12px;
+}
+
+.user-details {
+    align-items: center;
+    padding: 5px 0;
+}
+
+.fa-arrow-left {
+    margin-right: 15px;
+}
+
+.userInitials {
+    padding: 0 18px;
+    font-size: 36px;
+    background-color: rgb(159, 173, 133);
+    border-radius: 50%;
+}
+
+.line {
+    border-top: 5px solid black;
+}
+
+.date1 {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.lineleft {
+    border-top: 2px dotted black;
+    letter-spacing: 14px;
+    width: 40%;
+    margin-left: 4px;
+}
+
+.lineright {
+    border-top: 2px dotted black;
+    width: 44%;
+    text-align: right;
+}
+
+.dateLine {
+    align-items: center;
+}
+
+.Tbox {
+    margin-top: 15px;
+    max-width: 250px;
+    max-height: fit-content;
+    width: 100%;
+    border: 1px solid black;
+    margin: 1.5%;
+}
+
+.leftalign {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightalign {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.amount {
+    font-size: 40px;
+    padding: 5px;
+}
+
+.id {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.message {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-size: 12px;
+    padding: 6px;
+}
+
+.leftside,
+.rightside {
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -1px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.leftside {
+    margin-left: 115px;
+}
+
+.rightside {
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+.transactionPage {
+    border: 1px solid black;
+    font-size: 36px;
+}
